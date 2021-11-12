@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-    margin-bottom: 0;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-a, a:hover{
-    text-decoration: none;
-    color: unset;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.base-card {
+  background: #ededed;
+  border-radius: 10px;
+ 
 }

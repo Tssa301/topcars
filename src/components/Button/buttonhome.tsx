@@ -1,12 +1,13 @@
 import './styles.css';
 
 const ButtonHome = () => {
-
-    return(
-        <button className="btn btn-home">
-            <p>Go to catalog</p>
-        </button>
-    );
-}
+  return (
+    <div className="btn-home-container ">
+      <button className="btn btn-home">
+        <span>Go to catalog</span>
+      </button>
+    </div>
+  );
+};
 
 export default ButtonHome;

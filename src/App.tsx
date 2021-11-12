@@ -1,12 +1,13 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from 'pages/Home/home';
+import Routs from 'Routes';
+
 
 const App = () => {
   return (
-    <>
-    <Home/>
-    </>
+
+    <Routs/>
+ 
   );
 };
 

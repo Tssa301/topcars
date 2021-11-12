@@ -46,11 +46,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ededed;
-  border-radius: 10px;
 }
 
-.button-content-container {
+.button-content-container p {
   color: #585858;
   font-size: 18px;
 }
@@ -66,7 +64,8 @@
   }
 
   .home-content-container {
-    margin: 0px 30px 35px 30px;
+    margin: 0px 30px 5px 30px;
+    padding: 0px;
   }
 
   .home-content-container h1 {
@@ -126,6 +125,7 @@
 
   .home-content-container {
     padding-bottom: 20px;
+    margin-bottom: 35px;
   }
 }
 
