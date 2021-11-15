@@ -24,10 +24,10 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="topcars-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <NavLink to="/" >HOME</NavLink>
+              <NavLink to="/" >Home</NavLink>
             </li>
             <li>
-              <NavLink to="/products" className="active">CATALOG</NavLink>
+              <NavLink to="/products">Catalog</NavLink>
             </li>
           </ul>
         </div>

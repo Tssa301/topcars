@@ -4,17 +4,13 @@
   background-color: #f78b00;
 }
 
-.nav-logo-text,
+
 .nav-logo-text:hover {
   color: #00285f;
 }
 
 .nav-logo-text {
   border: 0;
-}
-
-.navbar-toggler-icon {
-  border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -41,6 +37,11 @@
   font-weight: 400;
 }
 
-.main-menu a, a:hover {
-  color: #00285f;
+.main-menu a:hover {
+  color:#00285f;
+}
+
+.main-menu a.active {
+  color:#00285f;
+  font-weight: bold;
 }
